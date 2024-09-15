@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface de Délibération</title>
+    <link rel="stylesheet" href="/assets/css/projet1.css">
+</head>
+
+<body>
+    <section class="project-section">
+        <div class="container">
+            <h1>Conception et Implémentation d'une Infrastructure Sécurisée pour un
+                Réseau Local</h1>
+            <p class="project-objective"><strong>Objectif :</strong>
+              
+                Configurer un pare-feu avec IPTables pour contrôler le trafic réseau entrant et sortant.
+                <br>
+                Mettre en place une DMZ (zone démilitarisée) pour héberger les services
+                accessibles depuis l'extérieur tout en protégeant le réseau interne.
+                <br>
+                Déployer un serveur proxy pour filtrer et gérer le trafic HTTP/HTTPS sortant.
+                <br>
+                Implémenter un VPN (OpenVPN ou StrongSwan) pour sécuriser les connexions à
+                distance des utilisateurs.
+            </p>
+
+            <div class="project-technologies">
+                <h2>Technologies Utilisées :</h2>
+                <ul>
+                    <li>linux</li>
+                    <li>GNS3</li>
+                  
+                </ul>
+            </div>
+
+            <div class="project-features">
+                <h2>Réalisation :</h2>
+                <ul>
+                    <li><strong>Configuration du Pare-feu avec IPTables :</strong>
+                     Définir des règles pour autoriser le trafic légitime et bloquer le trafic indésirable.</li>
+
+                    <li><strong>Mise en Place de la DMZ :</strong> 
+                    Configuration des réseaux en séparant le réseau interne et la DMZ via des sous-réseaux disctincts. <br>
+                    Configuration du pare-feu pour gérer le trafic entre le LAN, la DMZ et Internet. <br>
+                    Hébergement des services publics (web,mail,ToIP,base de donnée) dans la DMZ. </li>
+                    <li><strong>Déploiement d'un Serveur Proxy :</strong> 
+                        Installation et configuration de Squid pour filtrer et contrôler le trafic HTTP/HTTPS. <br>
+                        Mettre en place des régles de filtrage et de contrôle d'accès basées sur des accessibles.</li>
+                    <li><strong>Implémentation d'un VPN  :</strong> 
+                        Utilisation de OpenVPN : Configuration facile et large support de plateformes <br>
+                        Configuration du serveur VPN pour gérer les connexions des clients distants.</li>
+                </ul>
+            </div>
+            <div class="download-section">
+                <a href="/assets/projets/Rapport (4).pdf" class="download-btn">Télécharger le document technique </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
